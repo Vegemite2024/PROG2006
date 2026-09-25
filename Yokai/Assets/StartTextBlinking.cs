@@ -3,8 +3,7 @@ using TMPro;
 
 public class StartTextBlink : MonoBehaviour
 {
-    public float blinkSpeed = 1f;
-
+    public float timer;
     private TMP_Text startText;
 
     void Start()
@@ -14,10 +13,12 @@ public class StartTextBlink : MonoBehaviour
 
     void Update()
     {
-        float alpha = Mathf.Abs(Mathf.Sin(Time.time * blinkSpeed));
+        timer += Time.deltaTime;
 
-        Color colour = startText.color;
-        colour.a = alpha;
-        startText.color = colour;
+        if (timer >= 0.5f)
+        {
+            startText.enabled = !startText.enabled;
+            timer = 0f;
+        }
     }
 }
