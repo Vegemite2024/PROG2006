@@ -6,8 +6,8 @@ public class StoryScrollCont : MonoBehaviour
 {
     public ScrollRect StoryScroll;
 
-    public bool autoScroll = true;
-    public float scrollSpeed = 0.05f;
+    public bool autoScroll = false;
+    public float scrollSpeed = 0.01f;
     public TMP_Text autoScrollText;
 
     public void JUMPTOP()

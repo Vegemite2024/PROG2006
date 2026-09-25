@@ -1032,8 +1032,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.00024414062, y: 0}
-  m_SizeDelta: {x: 850, y: 1920}
+  m_AnchoredPosition: {x: -50, y: 0}
+  m_SizeDelta: {x: 850, y: 4000}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &519420028
 GameObject:
@@ -1662,8 +1662,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 150}
+  m_SizeDelta: {x: 0, y: -300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &799355123
 MonoBehaviour:
@@ -1747,8 +1747,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StoryScroll: {fileID: 799355123}
   autoScroll: 1
-  scrollSpeed: 0.05
-  autoScrollText: {fileID: 0}
+  scrollSpeed: 0.01
+  autoScrollText: {fileID: 1657844891}
 --- !u!1 &880095121
 GameObject:
   m_ObjectHideFlags: 0
@@ -3015,7 +3015,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 850, y: 800}
+  m_SizeDelta: {x: 850, y: 3500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1887391713
 MonoBehaviour:
@@ -3037,10 +3037,35 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The group slowly climbed the ancient stairs of the shrine, surrounded
-    by the quiet sounds of the forest.
-
-'
+  m_text: "\u201CStop. I can\u2019t walk anymore.\u201D\n\nJames turned around when
+    he heard Maddie\u2019s pained groan.\n\nHe realised that she had fallen quite
+    far behind. She was leaning against the handrail, her body slumped against it.\n\nHer
+    raincoat was a bright yellow, almost exactly the same colour as an American school
+    bus. Ducks wearing sunglasses and holding inflatable rings were printed all over
+    it, making the design seem a little childish for a woman in her twenties.\n\nThen
+    again, James himself had packed a raincoat in his backpack just in case. The
+    forecast for today had called for cloudy skies with no rain, but since they were
+    visiting Japan, he had decided that being prepared for any kind of weather was
+    the more sensible choice.\n\nOther tourists passed by Maddie as she stood there,
+    breathing heavily and looking exhausted.\n\n\u201CCome on, you can do it. We\u2019ve
+    only just started climbing the stairs,\u201D Liam teased her from further up
+    the steps, ahead of James.\n\nThe three of them had come to Japan from the Gold
+    Coast in Australia, and it had already been three days since they arrived.\n\nOn
+    their first day, they had gone around buying up the strong liquor they had heard
+    so much about from convenience stores. On the second day, they had spent almost
+    the entire day sleeping in their hotel rooms with terrible hangovers.\n\nSo,
+    for the three of them, who had barely experienced Japan at all despite it being
+    their first visit, today was finally a proper day of sightseeing.\n\nThis temple
+    in Kyoto was famous for its hundreds of torii gates standing one after another,
+    and it was normally expected to be crowded with tourists. Fortunately, however,
+    there was apparently a special festival taking place in town today, so there
+    were surprisingly few people around.\n\nThe sound of festival music could be
+    heard somewhere in the distance.\n\nA cold gust of wind suddenly swept past them,
+    unusually chilly for September.\n\nThe sun looked as though it would set in less
+    than an hour.\n\n\u201CCome on. Let\u2019s make it to the top before it gets
+    dark.\u201D\n\n\u201CYou two are trying to kill me, aren\u2019t you? Seriously,
+    there are way too many stairs in Japan.\u201D\n\nMaddie cursed under her breath
+    as she took another step, her blonde hair"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
   m_sharedMaterial: {fileID: -9153887945999032874, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
