@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class ScreenLoader : MonoBehaviour
 {
@@ -31,5 +32,16 @@ public class ScreenLoader : MonoBehaviour
     public void LoadCredits()
     {
         SceneManager.LoadScene("Credits");
+    }
+
+    //click sound
+
+    [SerializeField] private AudioSource clicksound;
+
+    IEnumerator LoadSceneWithSound(string sceneName)
+    {
+        clicksound.Play();
+        yield return new WaitForSeconds(0.2f);
+        SceneManager.LoadScene(sceneName);
     }
 }
