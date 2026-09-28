@@ -11,27 +11,27 @@ public class ScreenLoader : MonoBehaviour
 
     public void LoadChapter1()
     {
-        SceneManager.LoadScene("Chapter1");
+        StartCoroutine(LoadSceneWithSound("Chapter1"));
     }
 
     public void LoadChapter2()
     {
-        SceneManager.LoadScene("Chapter2");
+        StartCoroutine(LoadSceneWithSound("Chapter2"));
     }
 
     public void LoadChapter3()
     {
-        SceneManager.LoadScene("Chapter3");
+        StartCoroutine(LoadSceneWithSound("Chapter3"));
     }
 
     public void LoadChapter4()
     {
-        SceneManager.LoadScene("Chapter4");
+        StartCoroutine(LoadSceneWithSound("Chapter4"));
     }
 
     public void LoadCredits()
     {
-        SceneManager.LoadScene("Credits");
+        StartCoroutine(LoadSceneWithSound("Credits"));
     }
 
     //click sound
