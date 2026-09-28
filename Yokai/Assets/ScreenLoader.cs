@@ -6,7 +6,7 @@ public class ScreenLoader : MonoBehaviour
 {
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene("Main");
+        StartCoroutine(LoadSceneWithSound("Main"));
     }
 
     public void LoadChapter1()
@@ -41,7 +41,7 @@ public class ScreenLoader : MonoBehaviour
     IEnumerator LoadSceneWithSound(string sceneName)
     {
         clicksound.Play();
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.4f);
         SceneManager.LoadScene(sceneName);
     }
 }
