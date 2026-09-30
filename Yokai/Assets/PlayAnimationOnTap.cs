@@ -13,5 +13,6 @@ public class PlayAnimationOnTap : MonoBehaviour
     public void PlayAnimation()
     {
         animator.SetTrigger(triggerName);
+        gameObject.SetActive(false);
     }
 }
