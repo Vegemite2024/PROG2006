@@ -19,9 +19,13 @@ public class ScreenLoader : MonoBehaviour
         StartCoroutine(LoadSceneWithSound("Chapter2"));
     }
 
-    public void LoadChapter3()
+    public void LoadChapter3P1()
     {
-        StartCoroutine(LoadSceneWithSound("Chapter3"));
+        StartCoroutine(LoadSceneWithSound("Chapter3P1"));
+    }
+    public void LoadChapter3P2()
+    {
+        StartCoroutine(LoadSceneWithSound("Chapter3P2"));
     }
 
     public void LoadChapter4()
