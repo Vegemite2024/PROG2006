@@ -26,7 +26,6 @@ public class ObstacleScript : MonoBehaviour
             Debug.Log("uh-oh!");
 
             player.GetComponent<MiniGamePlayer>().ResetPlayer();
-
             obstacle.anchoredPosition = startPosition;
         }
     }
