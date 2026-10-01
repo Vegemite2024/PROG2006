@@ -5,8 +5,6 @@ public class NPCScript : MonoBehaviour
     public float moveSpeed = 40f;
     public RectTransform player;
     public GameObject speechBubble;
-    public ObstacleScript obstacle;
-    public CollectibleScript collectible;
 
     bool talked;
     Vector2 startPosition;
@@ -29,9 +27,9 @@ public class NPCScript : MonoBehaviour
         {
             talked = true;
             moveSpeed = 0f;
-            obstacle.moveSpeed = 0f;
-            collectible.paused = true;
             speechBubble.SetActive(true);
+
+            FindObjectOfType<MiniGameController>().PauseMiniGame();
         }
     }
 
@@ -39,15 +37,15 @@ public class NPCScript : MonoBehaviour
     {
         speechBubble.SetActive(false);
         moveSpeed = 40f;
-        collectible.paused = false;
-        obstacle.moveSpeed = 40f;
+
+        FindObjectOfType<MiniGameController>().ResumeMiniGame();
     }
 
     public void ResetNPC()
     {
+        GetComponent<RectTransform>().anchoredPosition = startPosition;
         talked = false;
         moveSpeed = 40f;
         speechBubble.SetActive(false);
-        GetComponent<RectTransform>().anchoredPosition = startPosition;
     }
 }

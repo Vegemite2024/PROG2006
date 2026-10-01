@@ -3,7 +3,6 @@ using UnityEngine;
 public class CollectibleScript : MonoBehaviour
 {
     public float moveSpeed = 40f;
-    public float growthAmount = 1.1f;
     public RectTransform player;
     public bool paused;
 
@@ -28,13 +27,15 @@ public class CollectibleScript : MonoBehaviour
             player.anchoredPosition
         ) < 70f)
         {
-            player.localScale *= growthAmount;
+            player.localScale *= 1.1f;
             gameObject.SetActive(false);
         }
     }
+
     public void ResetCollectible()
     {
         item.anchoredPosition = startPosition;
+        player.localScale = Vector3.one;
         paused = false;
         gameObject.SetActive(true);
     }

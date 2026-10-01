@@ -23,10 +23,15 @@ public class ObstacleScript : MonoBehaviour
             player.anchoredPosition
         ) < 80f)
         {
-            Debug.Log("uh-oh!");
+            MiniGameController controller =
+                FindObjectOfType<MiniGameController>();
 
-            player.GetComponent<MiniGamePlayer>().ResetPlayer();
-            obstacle.anchoredPosition = startPosition;
+            controller.GameOver();
         }
+    }
+
+    public void ResetObstacle()
+    {
+        obstacle.anchoredPosition = startPosition;
     }
 }
