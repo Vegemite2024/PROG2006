@@ -6,8 +6,6 @@ public class MiniGamePlayer : MonoBehaviour
     public float jumpSpeed = 500f;
 
     RectTransform player;
-    bool movingRight;
-    bool movingLeft;
     bool jumping;
 
     float groundY;
@@ -20,10 +18,7 @@ public class MiniGamePlayer : MonoBehaviour
 
     void Update()
     {
-        if (movingRight)
-            player.anchoredPosition += Vector2.right * moveSpeed * Time.deltaTime;
-        if (movingLeft)
-            player.anchoredPosition += Vector2.left * moveSpeed * Time.deltaTime;
+ 
 
         if (jumping)
         {
@@ -43,11 +38,6 @@ public class MiniGamePlayer : MonoBehaviour
         );
     }
 
-    public void StartMovingRight() => movingRight = true;
-    public void StopMovingRight() => movingRight = false;
-
-    public void StartMovingLeft() => movingLeft = true;
-    public void StopMovingLeft() => movingLeft = false;
 
     public void Jump()
     {
