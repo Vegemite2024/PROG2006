@@ -2,46 +2,53 @@ using UnityEngine;
 
 public class MiniGamePlayer : MonoBehaviour
 {
-    public float moveSpeed = 300f;
-    public float jumpSpeed = 500f;
+    public float jumpSpeed = 400f;
+    public float fallSpeed = 100f;
 
     RectTransform player;
     bool jumping;
 
     float groundY;
+    Vector2 startPosition;
 
     void Start()
     {
         player = GetComponent<RectTransform>();
         groundY = player.anchoredPosition.y;
+        startPosition = player.anchoredPosition;
     }
 
     void Update()
     {
- 
-
         if (jumping)
         {
             player.anchoredPosition += Vector2.up * jumpSpeed * Time.deltaTime;
 
-            if (player.anchoredPosition.y > groundY + 150f)
+            if (player.anchoredPosition.y > groundY + 200f)
                 jumping = false;
         }
         else if (player.anchoredPosition.y > groundY)
         {
-            player.anchoredPosition += Vector2.down * jumpSpeed * Time.deltaTime;
+            player.anchoredPosition += Vector2.down * fallSpeed * Time.deltaTime;
+
+            if (player.anchoredPosition.y < groundY)
+                player.anchoredPosition = new Vector2(
+                    player.anchoredPosition.x,
+                    groundY
+                );
         }
-
-        player.anchoredPosition = new Vector2(
-            Mathf.Clamp(player.anchoredPosition.x, -405f, 405f),
-            player.anchoredPosition.y
-        );
     }
-
 
     public void Jump()
     {
         if (player.anchoredPosition.y <= groundY)
             jumping = true;
+    }
+
+    //Player dead
+    public void ResetPlayer()
+    {
+        player.anchoredPosition = startPosition;
+        jumping = false;
     }
 }
