@@ -29,7 +29,7 @@ public class CollectibleScript : MonoBehaviour
             player.anchoredPosition
         ) < 70f)
         {
-            player.localScale *= 2.2f;
+            player.localScale *= 1.5f;
             gameObject.SetActive(false);
         }
     }

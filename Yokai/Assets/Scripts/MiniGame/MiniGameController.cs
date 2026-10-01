@@ -4,12 +4,16 @@ public class MiniGameController : MonoBehaviour
 {
     public GameObject gameOverPanel;
     public GameObject endingPanel;
+    public GameObject playButton;
 
     public MiniGamePlayer player;
     public NPCScript npc;
     public CollectibleScript collectible;
 
     ObstacleScript[] obstacles;
+    PeopleEndScript people;
+
+    bool gameStarted;
 
     void Start()
     {
@@ -17,6 +21,18 @@ public class MiniGameController : MonoBehaviour
         endingPanel.SetActive(false);
 
         obstacles = FindObjectsOfType<ObstacleScript>();
+        people = FindObjectOfType<PeopleEndScript>();
+
+        PauseMiniGame();
+    }
+
+    public void StartMiniGame()
+    {
+        gameStarted = true;
+
+        playButton.SetActive(false);
+
+        ResumeMiniGame();
     }
 
     public void GameOver()
@@ -25,6 +41,7 @@ public class MiniGameController : MonoBehaviour
 
         PauseMiniGame();
         npc.moveSpeed = 0f;
+        people.moveSpeed = 0f;
     }
 
     public void GameWon()
@@ -33,6 +50,7 @@ public class MiniGameController : MonoBehaviour
 
         PauseMiniGame();
         npc.moveSpeed = 0f;
+        people.moveSpeed = 0f;
     }
 
     public void PlayAgain()
@@ -49,8 +67,12 @@ public class MiniGameController : MonoBehaviour
 
         collectible.ResetCollectible();
         npc.ResetNPC();
+        people.ResetPeople();
 
-        ResumeMiniGame();
+        playButton.SetActive(true);
+        gameStarted = false;
+
+        PauseMiniGame();
     }
 
     public void PauseMiniGame()
@@ -61,6 +83,8 @@ public class MiniGameController : MonoBehaviour
         }
 
         collectible.paused = true;
+        npc.moveSpeed = 0f;
+        people.moveSpeed = 0f;
     }
 
     public void ResumeMiniGame()
@@ -72,5 +96,6 @@ public class MiniGameController : MonoBehaviour
 
         collectible.paused = false;
         npc.moveSpeed = 40f;
+        people.moveSpeed = 40f;
     }
 }
