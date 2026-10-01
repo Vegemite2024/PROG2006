@@ -3,6 +3,8 @@ using UnityEngine;
 public class MiniGameController : MonoBehaviour
 {
     public GameObject gameOverPanel;
+    public GameObject endingPanel;
+
     public MiniGamePlayer player;
     public NPCScript npc;
     public CollectibleScript collectible;
@@ -12,6 +14,8 @@ public class MiniGameController : MonoBehaviour
     void Start()
     {
         gameOverPanel.SetActive(false);
+        endingPanel.SetActive(false);
+
         obstacles = FindObjectsOfType<ObstacleScript>();
     }
 
@@ -23,9 +27,18 @@ public class MiniGameController : MonoBehaviour
         npc.moveSpeed = 0f;
     }
 
+    public void GameWon()
+    {
+        endingPanel.SetActive(true);
+
+        PauseMiniGame();
+        npc.moveSpeed = 0f;
+    }
+
     public void PlayAgain()
     {
         gameOverPanel.SetActive(false);
+        endingPanel.SetActive(false);
 
         player.ResetPlayer();
 

@@ -8,11 +8,13 @@ public class CollectibleScript : MonoBehaviour
 
     RectTransform item;
     Vector2 startPosition;
+    Vector3 playerStartScale;
 
     void Start()
     {
         item = GetComponent<RectTransform>();
         startPosition = item.anchoredPosition;
+        playerStartScale = player.localScale;
     }
 
     void Update()
@@ -27,7 +29,7 @@ public class CollectibleScript : MonoBehaviour
             player.anchoredPosition
         ) < 70f)
         {
-            player.localScale *= 1.1f;
+            player.localScale *= 2.2f;
             gameObject.SetActive(false);
         }
     }
@@ -35,7 +37,7 @@ public class CollectibleScript : MonoBehaviour
     public void ResetCollectible()
     {
         item.anchoredPosition = startPosition;
-        player.localScale = Vector3.one;
+        player.localScale = playerStartScale;
         paused = false;
         gameObject.SetActive(true);
     }
