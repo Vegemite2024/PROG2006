@@ -294,8 +294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -185, y: -3500}
-  m_SizeDelta: {x: 390.87, y: 30}
+  m_AnchoredPosition: {x: -185, y: -8216}
+  m_SizeDelta: {x: 400, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &139202201
 MonoBehaviour:
@@ -1673,7 +1673,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1755,7 +1755,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -50, y: 0}
-  m_SizeDelta: {x: 850, y: 4000}
+  m_SizeDelta: {x: 850, y: 9000}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &519420028
 GameObject:
@@ -2806,7 +2806,6 @@ GameObject:
   - component: {fileID: 1048536712}
   - component: {fileID: 1048536714}
   - component: {fileID: 1048536713}
-  - component: {fileID: 1048536715}
   m_Layer: 5
   m_Name: VideoBackground
   m_TagString: Untagged
@@ -2828,10 +2827,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1981276786}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1080, y: 1920}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1048536713
 MonoBehaviour:
@@ -2853,7 +2852,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: c9d0ef99c3fb5e84e967464b78fd245b, type: 2}
+  m_Texture: {fileID: 8400000, guid: eb1ddfbd3f71211498ea9cd064410c6e, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2868,27 +2867,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048536711}
   m_CullTransparentMesh: 1
---- !u!95 &1048536715
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048536711}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1295128745
 GameObject:
   m_ObjectHideFlags: 0
@@ -3109,11 +3087,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359011124}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: c36f4fc64db0081408765bc6c976d92a, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 38c5c11862cae824eabbb0585ed4fe91, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: c9d0ef99c3fb5e84e967464b78fd245b, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: eb1ddfbd3f71211498ea9cd064410c6e, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
@@ -3885,7 +3863,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3915,7 +3893,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -27.898167, z: 0, w: 0}
+  m_margin: {x: 0, y: -0.8668194, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4095,11 +4073,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 477720496}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 850, y: 3500}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -425, y: -150}
+  m_SizeDelta: {x: 850, y: 6500}
+  m_Pivot: {x: 0, y: 1}
 --- !u!114 &1887391713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4120,35 +4098,88 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u201CStop. I can\u2019t walk anymore.\u201D\n\nJames turned around when
-    he heard Maddie\u2019s pained groan.\n\nHe realised that she had fallen quite
-    far behind. She was leaning against the handrail, her body slumped against it.\n\nHer
-    raincoat was a bright yellow, almost exactly the same colour as an American school
-    bus. Ducks wearing sunglasses and holding inflatable rings were printed all over
-    it, making the design seem a little childish for a woman in her twenties.\n\n\n\n\n\nThen
-    again, James himself had packed a raincoat in his backpack just in case. The
-    forecast for today had called for cloudy skies with no rain, but since they were
-    visiting Japan, he had decided that being prepared for any kind of weather was
-    the more sensible choice.\n\nOther tourists passed by Maddie as she stood there,
-    breathing heavily and looking exhausted.\n\n\u201CCome on, you can do it. We\u2019ve
-    only just started climbing the stairs,\u201D Liam teased her from further up
-    the steps, ahead of James.\n\nThe three of them had come to Japan from the Gold
-    Coast in Australia, and it had already been three days since they arrived.\n\nOn
-    their first day, they had gone around buying up the strong liquor they had heard
-    so much about from convenience stores. On the second day, they had spent almost
-    the entire day sleeping in their hotel rooms with terrible hangovers.\n\nSo,
-    for the three of them, who had barely experienced Japan at all despite it being
-    their first visit, today was finally a proper day of sightseeing.\n\nThis temple
-    in Kyoto was famous for its hundreds of torii gates standing one after another,
-    and it was normally expected to be crowded with tourists. Fortunately, however,
-    there was apparently a special festival taking place in town today, so there
-    were surprisingly few people around.\n\nThe sound of festival music could be
-    heard somewhere in the distance.\n\nA cold gust of wind suddenly swept past them,
-    unusually chilly for September.\n\nThe sun looked as though it would set in less
-    than an hour.\n\n\u201CCome on. Let\u2019s make it to the top before it gets
-    dark.\u201D\n\n\u201CYou two are trying to kill me, aren\u2019t you? Seriously,
-    there are way too many stairs in Japan.\u201D\n\nMaddie cursed under her breath
-    as she took another step, her blonde hair"
+  m_text: "Chapter 2\n\nAfter returning to the main path, the three began climbing
+    the stairs again, heading further up. As the steps suddenly became higher and
+    narrower, a single, imposing stone torii stood at the entrance. It was old and
+    covered in moss, and simply looking at it gave them a strange, intimidating feeling,
+    as if it made their bodies feel cold.\r\nThe three stopped for a moment and looked
+    up at the torii. Maddie walked through it first, followed by the other two.\r\n\r\n\u201CI\u2019m
+    pretty sure there are those bright red torii further ahead, right? I want to
+    take some photos, so I hope it\u2019s not too crowded\u201D\r\n\r\nEver since
+    arriving in Japan, Maddie had been taking photos of everything they did. It was
+    probably because she was enjoying herself, but waiting for people to clear out
+    before taking photos took time and effort, and James and Liam found it a little
+    annoying.\r\n\r\n\u201CIt suddenly got cooler, didn\u2019t it? The air feels
+    kind of different too\u201D\r\n\r\nLiam said as he looked around.\r\n\r\n\u201CThere
+    are more trees around here. Maybe it\u2019s the shade or something. I\u2019m
+    already sweating, so this kind of cool is actually perfect for me\u201D\r\n\r\n\r\nAfter
+    passing through the stone torii, the high steps quickly started putting a lot
+    of strain on their legs. They had been talking at first, but as they continued
+    climbing towards the red torii that still seemed far away, they gradually fell
+    silent. Whenever they opened their mouths, their throats felt dry from being
+    out of breath.\r\n\u201CIs there anywhere you guys want to go tonight? How about
+    karaoke?\u201D\r\n\r\nLiam said while holding onto the handrail. He was probably
+    trying to keep everyone\u2019s spirits up.\r\n\r\n\u201CKaraoke sounds good.
+    I heard there\u2019s a karaoke place near the station with an all-you-can-eat
+    sweets option. Why don\u2019t we go there?\u201D\r\n\r\nMaddie said.\r\n\r\n\u201CThen
+    let\u2019s go to the arcade afterwards! Apparently you can get figures from the
+    anime I\u2019m watching from those UFO catcher machines\u201D\r\n\r\nSeeing that
+    the other two were getting more motivated, Liam nodded with a smile.\r\nThe three
+    began climbing the stairs silently again when, all of a sudden, Maddie, who was
+    walking at the front, stopped and looked up.\r\n\r\n\u201CWhat was that?!\u201D\r\n\r\nHer
+    face was full of surprise and uneasiness.\r\n\u201CWhat was what?\u201D\r\n\r\nJames
+    asked, confused.\r\n\r\n\u201CThat big sound just now! It was kind of... like
+    a ship\u2019s horn, or an organ or something. You heard it, right?\u201D\r\n\r\n\u201CNo,
+    I didn\u2019t hear anything\u201D\r\n\r\n\r\nLiam looked around suspiciously,
+    but all they could hear was the sound of leaves rustling in the wind.\r\nMaddie
+    looked dissatisfied with his answer. She seemed about to say something, but closed
+    her mouth and returned to the stairs.\r\nBut it happened again less than ten
+    minutes later.\r\n\r\n\u201CThere!!! You heard that one, didn\u2019t you?!\u201D\r\n\r\nMaddie
+    was already angry as she turned around and shouted at the other two.\r\nBut at
+    the same time, James let out an even louder scream.\r\n\r\n\u201CWAAAAH!\u201D\r\n\u201CWhat?!\u201D\r\n\r\nMaddie
+    yelled back at James, annoyed that he had interrupted her.\r\n\r\n\u201CA cat!
+    There\u2019s a cat behind you, Maddie!\u201D\r\n\r\n\u201CJust deal with the
+    cat! What about that sound? Why can\u2019t either of you hear it?!\u201D\r\n\r\n\u201COkay,
+    okay, both of you. I know you\u2019re tired, but let\u2019s just get to the top,
+    take some photos, and go home\u201D\r\n\r\nLiam\u2019s attempt to mediate did
+    nothing.\r\nIn the end, Maddie continued up the stairs, grumbling angrily.\r\n\r\n\u201CWhoa!\u201D\r\n\u201CAhh!!\u201D\r\n\r\nThis
+    time, James kept shouting every couple of minutes. Apparently, there were stray
+    cats hiding behind the trees all around them, but neither Liam nor Maddie had
+    seen any of them.\r\n\r\n\u201CYou keep making those ridiculously loud noises,
+    so they run away immediately. You should be happy about that\u201D\r\n\r\nLiam
+    sighed. At this rate, he thought they were going to end the night by having a
+    fight and going their separate ways for dinner.\r\nAfter climbing for another
+    ten or so minutes, they finally saw the red torii.\r\nHundreds of torii formed
+    a path, protecting the stairs that continued further up the mountain. It was
+    exactly as beautiful as the photos they had seen on social media and in travel
+    guides, and the three of them couldn't help but look up at them with smiles.\r\nFortunately,
+    there wasn't a single person around. While Maddie happily took photos, the other
+    two sat on nearby rocks and waited.\r\nThe sky was turning orange, and the silhouettes
+    of the mountains and buildings along the horizon were becoming completely black.\r\n\r\n\u201CCome
+    on, let\u2019s go.\u201D\r\n\r\nJames called out to Maddie, who was posing beside
+    the torii. He was starting to get impatient.\r\n\r\n\u201CHey, James, what do
+    you think that is? A little further up the stairs. Don\u2019t you see something
+    white?\u201D\r\n\r\nLiam, who was also looking towards Maddie, pointed at a particular
+    spot.\r\nJames narrowed his eyes and looked.\r\nSure enough, there was a white
+    object further up from where Maddie was standing. Because the sky was getting
+    darker and its outline was blurred, it was difficult to see clearly.\r\n\r\n\u201CThat\u2019s
+    a fox! A white fox!\u201D\r\n\r\nLiam said, sounding as though he had figured
+    it out.\r\n\r\n\u201CWith all this nature around, I guess that makes sense. But
+    seeing a white one is pretty unusual\u201D\r\n\r\nIt was definitely a fox.\r\nIt
+    sat quietly on the stairs, staring at James and Liam without blinking.\r\nThe
+    fox was bathed in the orange light, and for a moment, it looked as red as the
+    sky around it.\r\n\r\n\u201CSorry to keep you waiting! Shall we go?\u201D\r\n\r\nMaddie
+    finished taking her photos and returned to the other two, but James was still
+    looking towards the fox.\r\n\r\n\u201CWhat are you looking at?\u201D\r\n\u201CNothing,
+    there\u2019s just a fox... Oh, it\u2019s going towards the woods\u201D\r\n\r\nThe
+    fox suddenly stood up and, without taking its eyes off them, began walking towards
+    the woods away from the torii.\r\nAs it moved between the dark trees, its white
+    body looked almost like a pale ghost.\r\n\r\n\u201CJapan has foxes too, huh?
+    Why don\u2019t we follow it for a bit and see where it goes? Maybe it\u2019ll
+    take us to a fox party\u201D\r\n\r\nMaddie was completely distracted by the fox
+    and no longer seemed interested in going to the top.\r\n\r\n\u201CWe came all
+    this way. Let\u2019s go through the torii and make it to the top\u201D\r\n\r\nLiam
+    encouraged her.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
   m_sharedMaterial: {fileID: -9153887945999032874, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
@@ -4263,8 +4294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -257.68, y: -3550}
-  m_SizeDelta: {x: 245.5, y: 39.464966}
+  m_AnchoredPosition: {x: 210, y: -8217}
+  m_SizeDelta: {x: 300, y: 39.464966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929508347
 MonoBehaviour:
