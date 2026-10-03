@@ -1368,15 +1368,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1887391712}
-  - {fileID: 2047561016}
-  - {fileID: 1390087053}
   - {fileID: 1431557788}
   m_Father: {fileID: 1669412918}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -50, y: 0}
-  m_SizeDelta: {x: 850, y: 4000}
+  m_SizeDelta: {x: 850, y: 9000}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &519420028
 GameObject:
@@ -2606,9 +2604,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 422d133ba730964488de0214f3c91f08, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7624f1a50955ea54e81ab88e983063a3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.187
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2703,7 +2701,6 @@ GameObject:
   - component: {fileID: 1048536712}
   - component: {fileID: 1048536714}
   - component: {fileID: 1048536713}
-  - component: {fileID: 1048536715}
   m_Layer: 5
   m_Name: VideoBackground
   m_TagString: Untagged
@@ -2720,7 +2717,7 @@ RectTransform:
   m_GameObject: {fileID: 1048536711}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1981276786}
@@ -2750,7 +2747,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: c9d0ef99c3fb5e84e967464b78fd245b, type: 2}
+  m_Texture: {fileID: 8400000, guid: 21ff5e8a070a5ac48a25a894bd63c5d9, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2765,27 +2762,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048536711}
   m_CullTransparentMesh: 1
---- !u!95 &1048536715
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048536711}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1295128745
 GameObject:
   m_ObjectHideFlags: 0
@@ -3006,11 +2982,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359011124}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: c36f4fc64db0081408765bc6c976d92a, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: c3eae8d58d0816744b80804881e9e0ff, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: c9d0ef99c3fb5e84e967464b78fd245b, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 21ff5e8a070a5ac48a25a894bd63c5d9, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
@@ -3034,153 +3010,6 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
---- !u!1 &1390087052
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1390087053}
-  - component: {fileID: 1390087055}
-  - component: {fileID: 1390087054}
-  - component: {fileID: 1390087056}
-  - component: {fileID: 1390087057}
-  m_Layer: 5
-  m_Name: 2DInteractive
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1390087053
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390087052}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 477720496}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190, y: 1093}
-  m_SizeDelta: {x: 283, y: 200.36}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1390087054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390087052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e68fb3cdb784dce428e6096baae1a19d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1390087055
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390087052}
-  m_CullTransparentMesh: 1
---- !u!114 &1390087056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390087052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1390087054}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1390087057}
-        m_TargetAssemblyTypeName: PlayAnimationOnTap, Assembly-CSharp
-        m_MethodName: PlayAnimation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1390087057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390087052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91fa8b21059a9c7409cab245115ee4ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 2047561019}
-  triggerName: PlayNeko
 --- !u!1 &1431557785
 GameObject:
   m_ObjectHideFlags: 0
@@ -3250,7 +3079,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1500}
+  m_AnchoredPosition: {x: 37, y: 3488}
   m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1540894757
@@ -4174,10 +4003,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 477720496}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 850, y: 3500}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -4550}
+  m_SizeDelta: {x: 850, y: 9000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1887391713
 MonoBehaviour:
@@ -4199,35 +4028,90 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u201CStop. I can\u2019t walk anymore.\u201D\n\nJames turned around when
-    he heard Maddie\u2019s pained groan.\n\nHe realised that she had fallen quite
-    far behind. She was leaning against the handrail, her body slumped against it.\n\nHer
-    raincoat was a bright yellow, almost exactly the same colour as an American school
-    bus. Ducks wearing sunglasses and holding inflatable rings were printed all over
-    it, making the design seem a little childish for a woman in her twenties.\n\n\n\n\n\nThen
-    again, James himself had packed a raincoat in his backpack just in case. The
-    forecast for today had called for cloudy skies with no rain, but since they were
-    visiting Japan, he had decided that being prepared for any kind of weather was
-    the more sensible choice.\n\nOther tourists passed by Maddie as she stood there,
-    breathing heavily and looking exhausted.\n\n\u201CCome on, you can do it. We\u2019ve
-    only just started climbing the stairs,\u201D Liam teased her from further up
-    the steps, ahead of James.\n\nThe three of them had come to Japan from the Gold
-    Coast in Australia, and it had already been three days since they arrived.\n\nOn
-    their first day, they had gone around buying up the strong liquor they had heard
-    so much about from convenience stores. On the second day, they had spent almost
-    the entire day sleeping in their hotel rooms with terrible hangovers.\n\nSo,
-    for the three of them, who had barely experienced Japan at all despite it being
-    their first visit, today was finally a proper day of sightseeing.\n\nThis temple
-    in Kyoto was famous for its hundreds of torii gates standing one after another,
-    and it was normally expected to be crowded with tourists. Fortunately, however,
-    there was apparently a special festival taking place in town today, so there
-    were surprisingly few people around.\n\nThe sound of festival music could be
-    heard somewhere in the distance.\n\nA cold gust of wind suddenly swept past them,
-    unusually chilly for September.\n\nThe sun looked as though it would set in less
-    than an hour.\n\n\u201CCome on. Let\u2019s make it to the top before it gets
-    dark.\u201D\n\n\u201CYou two are trying to kill me, aren\u2019t you? Seriously,
-    there are way too many stairs in Japan.\u201D\n\nMaddie cursed under her breath
-    as she took another step, her blonde hair"
+  m_text: "\n\nChapter 3 \u201C Torii\u201D\r\n\r\n\u201CThe foxes are in Australia
+    too. Come on, let\u2019s just go through the torii and get something to eat\u201D\r\n\r\nJames
+    stood up as he said this, and Maddie reluctantly followed him. It was already
+    dark outside. The torii looked impressive from the outside, but once they passed
+    through them, there was a slight sense of being enclosed. Since it had become
+    dark, everything around them was black, and the vermilion colour was the only
+    thing they could see.\r\nThey could still see the stairs fairly well until the
+    sun completely disappeared, but after a while, Maddie started using the light
+    on her phone to see where she was stepping.\r\n\r\n\u201CWhoa, I can\u2019t see
+    where it ends\u201D\r\n\n\n\n\n\n\n\r\nMaddie looked up. The endless torii continued
+    higher and higher, with the path turning to the left. Because the stairs were
+    hidden in the shadows, it almost looked as if the torii were floating.\r\nFor
+    several more tens of minutes, the three of them forced their tired legs up the
+    stairs. The sound of their clothes rubbing against each other, the occasional
+    sound of a toe catching on a step and making someone stumble, the sound of the
+    trees swaying in the wind, and their sighs all echoed through the darkness.\r\n\r\n\u201CAccording
+    to the guide\u2026\u201D\r\n\r\nLiam finally spoke again, but he was already
+    out of breath.\r\n\r\n\u201CI think it said that once you see the red torii,
+    it\u2019s about another ten minutes to the top\u201D\r\n\r\n\u201CWhat?\u201D\r\n\r\nJames
+    sat down on the stairs.\r\n\r\n\u201CWe\u2019ve already been walking for more
+    than twenty minutes from the entrance. If it\u2019s only ten minutes, shouldn\u2019t
+    we be able to see the top by now?\u201D\r\n\r\nHe pointed up the stairs. Sure
+    enough, the torii still continued far ahead, and there was no sign of any open
+    area. Liam dropped his shoulders and raised his hands as if to say he had no
+    idea.\r\n\r\n\u201CMaybe we took the wrong path? We haven\u2019t seen a single
+    person from that tour group. Wouldn\u2019t we normally run into people coming
+    back down?\u201D\r\n\r\nMaddie had a point. They really hadn\u2019t seen a single
+    person since they finished treating her knee and returned to the main path.\r\n\r\n\u201CNo,
+    it should be a single path. But yeah, you\u2019re right. If it\u2019s one path,
+    we should have seen someone coming back down\u201D\r\n\r\n\u201CThen let\u2019s
+    do this. We\u2019ll climb for another ten minutes, and if we still haven\u2019t
+    reached the top, we\u2019ll give up and go back. They\u2019re probably all at
+    that festival\u201D\r\n\r\n\u201CYeah, let\u2019s do that. Is that okay with
+    you, Maddie?\u201D\r\n\r\n\u201CFine\u201D\r\n\r\nThe three continued climbing
+    and climbing. Their calves and thighs were screaming in pain. As for Maddie,
+    looking up made her feel even more discouraged, so she simply kept her eyes on
+    the next step and continued moving her feet.\r\nTen minutes passed.\r\nThey still
+    couldn\u2019t see the end. Just like before, the path continued straight ahead
+    before turning left.\r\n\r\n\u201CI can\u2019t do this anymore\u201D\r\nLiam
+    rarely complained, but this time he sat down on the stairs and lowered his head.
+    James let out a long sigh and started making strange noises to release his frustration.\r\n\r\n[Fuunna
+    monodakoto. Awarejanou]\r\n\r\n\u201CAAAAAAAAAH!\u201D\r\n\r\nMaddie suddenly
+    covered both ears and screamed. Liam and James immediately stood up and braced
+    themselves, wondering what had happened.\r\n\r\n[konomamadewa isshou derarenzo,
+    kitsune wa ganko jakaranou]\r\n\r\nMaddie kept screaming in panic at the mysterious
+    voice whispering beside her ears\u2014or rather, inside her head.\r\n\r\n\u201CSomeone
+    is talking inside my head! Someone is\u2014\u201D\r\n\r\n\u201CMaddie, calm down.
+    Nobody is saying anything\u201D\r\n\r\nThe two of them were frightened by how
+    different Maddie was acting from usual.\r\n\r\n\u201CIt\u2019s Japanese! It\u2019s
+    saying something in Japanese, but I don\u2019t understand!\u201D\r\n\r\nMaddie
+    was crying in fear with her hands still covering her ears.\r\n\u201CIt\u2019s
+    okay. Calm down. I can understand it. Tell me what you heard\u201D\r\n\r\nLiam
+    gently moved Maddie\u2019s arms away from her head and spoke to her. Maddie nodded,
+    her face crumpling as she tried not to cry.\r\n\r\n[omaesanra ga ashiwo tometari
+    surukara, hora, kitadewanaika. Nekotachino omukaeja]\r\n\r\n\u201CCat\u2026 it
+    said cat\u2026 and it also said something about\u2026 legs\u201D\r\n\r\n\u201CI
+    can\u2019t understand it from just the words. Tell me the whole sentence\u201D\r\n\r\n\u201CMaddie,
+    Liam\u2026 c-can you see this?\u201D\r\n\r\nJames looked around himself in a
+    circle and said this in a trembling voice.\r\nThen, just as he suddenly gasped,
+    his body went limp and he collapsed, falling several steps down. Maddie screamed
+    even louder when she saw him. Liam rushed over to James. Thankfully, it seemed
+    that he wasn\u2019t injured.\r\n\r\n[shikata arumai, sokono torii no sukimawo
+    tootte\u2026]\r\n\r\n\u201CWait!\u201D\r\n\r\nMaddie interrupted the mysterious
+    voice and tried to tell Liam what she had heard.\r\n\r\n\u201CSoko no sukma wo
+    toori.\u201D\r\n\r\n[shitani yuke]\r\n\r\n\u201CIt said \u2018shita ni yuke\u2019!\u201D\r\n\r\nLiam
+    tried to make sense of what Maddie had said. Sukma\u2026? What is that\u2026?
+    Oh, sukima. The gap.\r\n\r\n\u201CYou mean we\u2019re supposed to go through
+    that gap and go down?\u201D\r\n\r\nThey had no idea what was happening. But it
+    was obvious that something strange was happening to both Maddie and James. And
+    so was the endless stretch of torii.\r\nLiam carried James on his back. He let
+    Maddie go through first, then squeezed his own body into the narrow gap between
+    the torii.\r\n\r\n\u201CGuh\u2026\u201D\r\n\r\nHe immediately regretted not sending
+    James through first. He forced himself through, already expecting to end up covered
+    in bruises. He came out with so much momentum that he nearly stumbled, but Maddie
+    caught him.\r\n\r\n\u201CWe\u2019re going down. Something is wrong with this
+    place\u201D\r\n\r\nLiam let Maddie go first while he carried James down the steep
+    slope on his back. The path was unmaintained, with tree branches sticking out
+    everywhere. Apart from the light from Maddie\u2019s phone occasionally shining
+    behind them as if she was checking what was there, they could see nothing but
+    darkness.\r\nAnd yet, from the gaps inside the torii that continued alongside
+    them, countless glowing eyes were watching them. They disappeared and appeared
+    again, following them over and over.\r\nThe two of them ran as if they were being
+    chased. They said nothing to each other as they ran, forgetting their exhaustion.\r\nThen,
+    suddenly, the view opened up.\r\nThey were standing at some kind of intersection.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
   m_sharedMaterial: {fileID: -9153887945999032874, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
@@ -5605,103 +5489,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &2047561015
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2047561016}
-  - component: {fileID: 2047561018}
-  - component: {fileID: 2047561017}
-  - component: {fileID: 2047561019}
-  m_Layer: 5
-  m_Name: n1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2047561016
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047561015}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 477720496}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190, y: 1093}
-  m_SizeDelta: {x: 178.734, y: 162.033}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2047561017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047561015}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 594f34196ab19794b8a532444e32a5bc, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2047561018
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047561015}
-  m_CullTransparentMesh: 1
---- !u!95 &2047561019
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047561015}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7e4d783c489b0dd479b9e088ac13f3e7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2063684045
 GameObject:
   m_ObjectHideFlags: 0
