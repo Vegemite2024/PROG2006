@@ -11,7 +11,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 3492096715947538057}
-    m_Position: {x: 230, y: 40, z: 0}
+    m_Position: {x: 240, y: 40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8095326162360645825}
     m_Position: {x: 240, y: 120, z: 0}
@@ -34,11 +34,11 @@ AnimatorController:
   m_Name: NekoUIController
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: PlayNeko
+  - m_Name: PlayFoxStairs
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
@@ -62,7 +62,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: PlayNeko
+    m_ConditionEvent: PlayFoxStairs
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3492096715947538057}
@@ -85,7 +85,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NekoUIAnimation
+  m_Name: FOXUIAnimation
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -98,7 +98,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 579f605cf9aedee4385bab3f59c415c3, type: 2}
+  m_Motion: {fileID: 7400000, guid: 4e051ece0a366034b86d199b6bcce0d3, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -125,7 +125,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 0}
+  m_Motion: {fileID: 7400000, guid: 4e051ece0a366034b86d199b6bcce0d3, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
