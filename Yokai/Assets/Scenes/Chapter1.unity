@@ -1348,6 +1348,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 477720496}
+  - component: {fileID: 477720497}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -1375,8 +1376,22 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -50, y: 0}
-  m_SizeDelta: {x: 850, y: 4000}
+  m_SizeDelta: {x: 850, y: 9000}
   m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &477720497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477720495}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,7 +2942,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190, y: 1093}
+  m_AnchoredPosition: {x: 0.00001759, y: -1589}
   m_SizeDelta: {x: 283, y: 200.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1390087054
@@ -3959,11 +3974,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 477720496}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 850, y: 3500}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -425.00003, y: -50}
+  m_SizeDelta: {x: 850, y: 6500}
+  m_Pivot: {x: 0, y: 1}
 --- !u!114 &1887391713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3984,35 +3999,89 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Chapter 1\n\n\u201CStop. I can\u2019t walk anymore.\u201D\n\nJames turned
-    around when he heard Maddie\u2019s pained groan.\n\nHe realised that she had
-    fallen quite far behind. She was leaning against the handrail, her body slumped
-    against it.\n\nHer raincoat was a bright yellow, almost exactly the same colour
-    as an American school bus. Ducks wearing sunglasses and holding inflatable rings
-    were printed all over it, making the design seem a little childish for a woman
-    in her twenties.\n\n\n\n\n\nThen again, James himself had packed a raincoat in
-    his backpack just in case. The forecast for today had called for cloudy skies
-    with no rain, but since they were visiting Japan, he had decided that being prepared
-    for any kind of weather was the more sensible choice.\n\nOther tourists passed
-    by Maddie as she stood there, breathing heavily and looking exhausted.\n\n\u201CCome
-    on, you can do it. We\u2019ve only just started climbing the stairs,\u201D Liam
-    teased her from further up the steps, ahead of James.\n\nThe three of them had
-    come to Japan from the Gold Coast in Australia, and it had already been three
-    days since they arrived.\n\nOn their first day, they had gone around buying up
-    the strong liquor they had heard so much about from convenience stores. On the
-    second day, they had spent almost the entire day sleeping in their hotel rooms
-    with terrible hangovers.\n\nSo, for the three of them, who had barely experienced
-    Japan at all despite it being their first visit, today was finally a proper day
-    of sightseeing.\n\nThis temple in Kyoto was famous for its hundreds of torii
-    gates standing one after another, and it was normally expected to be crowded
-    with tourists. Fortunately, however, there was apparently a special festival
-    taking place in town today, so there were surprisingly few people around.\n\nThe
-    sound of festival music could be heard somewhere in the distance.\n\nA cold gust
-    of wind suddenly swept past them, unusually chilly for September.\n\nThe sun
-    looked as though it would set in less than an hour.\n\n\u201CCome on. Let\u2019s
-    make it to the top before it gets dark.\u201D\n\n\u201CYou two are trying to
-    kill me, aren\u2019t you? Seriously, there are way too many stairs in Japan.\u201D\n\nMaddie
-    cursed under her breath as she took another step, her blonde hair"
+  m_text: "\n\n\nChapter 1\n\n\u201CNo, I can\u2019t walk anymore\u201D\r\n\nJames
+    turned around when he heard Maddie\u2019s painful groan.\r\nHe realised that
+    she had fallen quite far behind. She was leaning against the handrail, resting
+    her weight against it. Her raincoat was bright yellow, almost like an American
+    school bus, with pictures of ducks wearing sunglasses and holding swim rings
+    scattered all over it. The designs were a little childish for a woman in her
+    twenties. That said, James also had a raincoat packed in his backpack, just in
+    case.\r\n\nThe forecast for today had been cloudy, with no rain expected, but
+    since they were visiting Japan, they had decided it was better to be flexible
+    enough to adapt to any kind of weather.\r\nOther tourists passed Maddie, who
+    was breathing heavily with tiredness, laughing as they went.\r\n\n\u201CCome
+    on, you can do it. We\u2019ve only just started going up the stairs.\u201D\r\n\nLiam,
+    who was further ahead than James, teased Maddie.\r\nThe three of them had come
+    to Japan from the Gold Coast in Australia, and it had been three days since they
+    arrived. On their first day, they had bought several bottles of the strong alcohol
+    they had often heard about from convenience stores. On the second day, they spent
+    most of the day sleeping in the hotel because of their hangovers.\r\n\nSo, for
+    the three of them, who had barely been able to enjoy their very first visit to
+    Japan, today was supposed to be a proper sightseeing day.\r\n\nThis temple in
+    Kyoto was famous for its hundreds of torii gates and was expected to be crowded
+    with tourists. Fortunately, there was a special festival taking place in the
+    town today, so there were fewer people around than usual.\r\nBecause of that,
+    the buses coming here had been too crowded to get on, and they had already walked
+    several dozen kilometres just today.\r\n\nWhile Maddie caught her breath, the
+    sound of festival music drifted through the wind from somewhere nearby. A cold
+    gust of wind blew past, unusual for September. The sun looked like it would set
+    in only a few more hours.\r\n\n\u201CCome on. Let\u2019s make it to the top before
+    it gets dark\u201D\r\n\nJames looked up. Liam was reading a sign a little further
+    up the path.\r\nLiam had spent six years in Japan as an international student
+    before returning to Australia to attend university. But it seemed like he had
+    left his heart behind in Japan, because whenever he had the chance, he would
+    quickly come back.\r\n\nMaddie and James could read hiragana to some extent,
+    but having Liam, who knew Japanese well, with them was reassuring.\r\n\n\u201CYou
+    two are trying to kill me. Japan has way too many stairs.\u201D\r\n\nMaddie complained
+    as she took another step.\r\nThe three of them had met in high school and had
+    been friends ever since. Even now, at twenty-one, they were close enough to meet
+    on weekends, play online games together, or just hang around doing nothing.\r\n\n\u201CLiam,
+    you should just live in Japan already. The Australian air doesn\u2019t agree
+    with you, does it?\u201D\r\n\nJames called out to Liam, who was taking a photo
+    of the sign.\r\n\n\u201CYeah, maybe. To tell you the truth, I was thinking about
+    moving here before the end of the year. I\u2019d already been looking at places
+    and stuff\u201D\r\n\n\u201CSeriously? Well, I get it. The food\u2019s good, and
+    the scenery\u2019s beautiful\u201D\r\n\n\u201CIf you leave, who\u2019s going
+    to maintain my computer?!\u201D\r\n\nMaddie shouted from the bottom of the stairs.
+    She had some seriously good hearing to have heard that conversation from there.\n\r\n\u201CActually...
+    there\u2019s this Japanese girl I met through a game\u201D\r\n\nLiam quietly
+    said to James, keeping his voice low enough that Maddie couldn\u2019t hear.\r\n\n\u201CNo
+    way. How could you not tell me this?\u201D\r\n\nJames moved right next to Liam
+    with an amused expression on his face.\r\n\n\u201C...Y-yeah. We\u2019re the same
+    age, and she lives in Kyoto. We talk pretty much every day\u201D\r\n\n\u201CWoooo!\u201D\r\n\nJames
+    elbowed Liam.\r\n\nIt was just as they stood side by side, waiting for Maddie
+    to catch up so James could ask more questions.\r\n\n\u201COw!\u201D\r\n\nMaddie
+    missed the last step and scraped her knee badly. Blood slowly began to seep from
+    the wound and drip down her leg.\r\n\n\u201CWhoa, that looks painful\u201D\r\n\n\u201CI\u2019ve
+    got some band-aids. Let\u2019s go over there and take care of it\u201D\r\n\nLiam
+    noticed a tour group coming up the stairs from below. He started walking towards
+    a small forest path away from the stairs.\r\nNot far away, there was a quiet
+    stone-paved path. At the end of it were some exposed stones and an old shrine,
+    as if the area was still under construction.\r\n\n\u201CHere, sit down\u201D\n\nAt
+    Liam\u2019s urging, Maddie sat down on a stone.\r\nBright red blood was running
+    steadily from her wound. Liam took a band-aid out of his bag and first washed
+    away the small pieces of gravel and dirt that had gotten into the scrape with
+    the disinfectant he was carrying.\r\n\n\u201CWhoa, a cat!\u201D\r\n\n\n\n\n\nJames,
+    who had been standing around with nothing to do, suddenly shouted.\r\nThe other
+    two turned around in surprise. A black cat had poked its head out from between
+    the grass, but it quickly pulled its head back and disappeared.\r\n\n\u201CWait,
+    I thought you liked cats?\u201D\r\n\nMaddie teased him.\r\nHer family back in
+    Australia ran an animal shelter and veterinary clinic, so she had always been
+    surrounded by animals.\r\n\n\u201CWhen I was little, a feral cat scratched my
+    face, so I\u2019ve been a little nervous around them ever since\u201D\r\n\nMaddie
+    laughed when she heard this, but then made a sour face at the disinfectant Liam
+    was pouring.\r\n\n\u201COkay, all done\u201D\r\n\nLiam put the wrapper from the
+    band-aid into his pocket as he spoke.\r\nThe three of them followed the path
+    they had come from, but the tour group was occupying the area around the stairs,
+    so they decided to continue up the slope a little further and rejoin the path
+    from there.\r\n\n\u201CWe can go this way\u201D\r\n\nJames said, scattering some
+    dirt and small stones behind him as he climbed.\r\nTo get over the final large
+    stone step, he used a rope tied around the tree on his right as a handrail.\r\nBut
+    when he shifted his weight, the rope suddenly snapped with a loud snap.\n\n\u201COops.\u201D\r\n\nJames
+    looked at the piece of rope left in his hand and gave an awkward smile. Then,
+    as if nothing had happened, he placed it over a branch of the tree.\r\nMaddie
+    shook her head in disbelief when she saw him do it, and the three of them returned
+    to the main path.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
   m_sharedMaterial: {fileID: -9153887945999032874, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
@@ -5425,7 +5494,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190, y: 1093}
+  m_AnchoredPosition: {x: -0.000032425, y: -1589}
   m_SizeDelta: {x: 178.734, y: 162.033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2047561017
