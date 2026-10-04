@@ -1375,7 +1375,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -50, y: 0}
-  m_SizeDelta: {x: 850, y: 4000}
+  m_SizeDelta: {x: 850, y: 6000}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &519420028
 GameObject:
@@ -2394,7 +2394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StoryScroll: {fileID: 799355123}
   autoScroll: 1
-  scrollSpeed: 0.005
+  scrollSpeed: 0.003
   autoScrollText: {fileID: 1657844891}
 --- !u!95 &799355127
 Animator:
@@ -2465,7 +2465,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 54b1057372c7e2f49ba284a569476f8e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.03
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2560,7 +2560,6 @@ GameObject:
   - component: {fileID: 1048536712}
   - component: {fileID: 1048536714}
   - component: {fileID: 1048536713}
-  - component: {fileID: 1048536715}
   m_Layer: 5
   m_Name: VideoBackground
   m_TagString: Untagged
@@ -2577,7 +2576,7 @@ RectTransform:
   m_GameObject: {fileID: 1048536711}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 12}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1981276786}
@@ -2607,7 +2606,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: c9d0ef99c3fb5e84e967464b78fd245b, type: 2}
+  m_Texture: {fileID: 8400000, guid: 3918d142e80f78c448089a119bda23c8, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2622,27 +2621,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048536711}
   m_CullTransparentMesh: 1
---- !u!95 &1048536715
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048536711}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1295128745
 GameObject:
   m_ObjectHideFlags: 0
@@ -2863,11 +2841,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359011124}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: c36f4fc64db0081408765bc6c976d92a, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: f99d09a1aafed6c4793efbd077a04ae5, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: c9d0ef99c3fb5e84e967464b78fd245b, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 3918d142e80f78c448089a119bda23c8, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
@@ -3961,8 +3939,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 850, y: 3500}
+  m_AnchoredPosition: {x: 0, y: -150}
+  m_SizeDelta: {x: 850, y: 6000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1887391713
 MonoBehaviour:
@@ -3984,35 +3962,59 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u201CStop. I can\u2019t walk anymore.\u201D\n\nJames turned around when
-    he heard Maddie\u2019s pained groan.\n\nHe realised that she had fallen quite
-    far behind. She was leaning against the handrail, her body slumped against it.\n\nHer
-    raincoat was a bright yellow, almost exactly the same colour as an American school
-    bus. Ducks wearing sunglasses and holding inflatable rings were printed all over
-    it, making the design seem a little childish for a woman in her twenties.\n\n\n\n\n\nThen
-    again, James himself had packed a raincoat in his backpack just in case. The
-    forecast for today had called for cloudy skies with no rain, but since they were
-    visiting Japan, he had decided that being prepared for any kind of weather was
-    the more sensible choice.\n\nOther tourists passed by Maddie as she stood there,
-    breathing heavily and looking exhausted.\n\n\u201CCome on, you can do it. We\u2019ve
-    only just started climbing the stairs,\u201D Liam teased her from further up
-    the steps, ahead of James.\n\nThe three of them had come to Japan from the Gold
-    Coast in Australia, and it had already been three days since they arrived.\n\nOn
-    their first day, they had gone around buying up the strong liquor they had heard
-    so much about from convenience stores. On the second day, they had spent almost
-    the entire day sleeping in their hotel rooms with terrible hangovers.\n\nSo,
-    for the three of them, who had barely experienced Japan at all despite it being
-    their first visit, today was finally a proper day of sightseeing.\n\nThis temple
-    in Kyoto was famous for its hundreds of torii gates standing one after another,
-    and it was normally expected to be crowded with tourists. Fortunately, however,
-    there was apparently a special festival taking place in town today, so there
-    were surprisingly few people around.\n\nThe sound of festival music could be
-    heard somewhere in the distance.\n\nA cold gust of wind suddenly swept past them,
-    unusually chilly for September.\n\nThe sun looked as though it would set in less
-    than an hour.\n\n\u201CCome on. Let\u2019s make it to the top before it gets
-    dark.\u201D\n\n\u201CYou two are trying to kill me, aren\u2019t you? Seriously,
-    there are way too many stairs in Japan.\u201D\n\nMaddie cursed under her breath
-    as she took another step, her blonde hair"
+  m_text: "Chapter 4\r\n\n\nThe three of them still felt as though they were being
+    watched from the mountain behind them, where the shrine stood, so they quickly
+    left the intersection. They hurried back towards the station, and finally felt
+    relieved when they saw other people. After taking the train back to their hotel,
+    the three of them sat down on the floor.\r\n\r\n\u201CWhat the hell was that\u2026?\u201D\r\n\r\nEven
+    James looked shaken, which was unusual for him.\r\n\r\n\u201CStop. I don't want
+    to talk about it! Don't talk about it!\u201D\r\n\r\nMaddie said only that before
+    staring at the two of them and going to her room.\r\n\r\n\u201CJames, what did
+    you see?\u201D\r\n\r\nLiam quietly asked, making sure Maddie couldn't hear him.\r\n\r\n\u201CI\u2026
+    saw hundreds of cats. But they weren't normal cats. They were bakeneko. They
+    were all screaming in pain, and then they jumped at me. After that, I blacked
+    out\u201D\r\n\r\n\u201CI see. Maddie said she heard some kind of mysterious voice
+    too. That place was definitely strange. It's a miracle we made it back safely.
+    Seriously\u201D\r\n\r\nThe two of them sat silently for a while. From Maddie's
+    room, they could hear her quietly sobbing.\r\nLater, Liam took a shower and sat
+    down on the sofa. James was lying on the bed, staring blankly at the television
+    when he suddenly said,\r\n\r\n\u201CThere were two\u201D\r\n\r\n\u201CTwo what?\u201D\r\n\r\n\u201CThe
+    black cat I saw at the very beginning. It had two tails\u201D\r\n\r\n\u201CHuh?\u201D\r\n\r\nCats
+    with two tails aren't an unusual image in Japan. They are called bakeneko, a
+    type of yokai, and often appear in anime as well.\r\n\r\n\u201CYou must have
+    imagined it\u201D\r\n\r\nLiam brushed it off, but James immediately denied it.\r\n\r\n\u201CNo,
+    it definitely had two. They were moving in different directions. There's no way
+    I'd mistake something that creepy\u201D\r\nLiam opened his phone and hesitated
+    over whether to tell the girl about what had happened today. He started typing
+    \u201CGood evening,\u201D and opened his messages, but instead, he went to the
+    search bar and typed, \u201Cmeaning of torii\u201D\r\n\r\n(So the stone torii
+    has a meaning of connecting the ordinary world with another world\u2026 And the
+    vermilion torii represents wishes and gratitude towards the gods\u2026 And torii
+    also have the meaning of being a passageway for the gods)\r\n\r\nBut he didn't
+    know what any of that actually meant for what had happened to them.\r\nNext,
+    he typed \u201Cfox\u201D into the search bar, when James suddenly sat up in bed.\r\n\r\n\u201CUh-oh\u201D\r\n\r\n\r\nHe
+    was holding his phone in one hand.\r\n\u201CYou know that rope? Apparently, it's
+    not only used for sacred things. It's also used to seal away cursed things\u2026
+    I don't believe in ghosts or anything like that, but if what happened was because
+    that rope got cut, then\u2026 I guess it wouldn't be impossible\u201D\r\n\r\n\u201CThat\u2026
+    might actually be possible\u201D\r\n\r\nLiam shared what he had found as well.\r\nTorii
+    were passages for the gods. Foxes at that shrine were messengers of the deity,
+    said to drive away evil. And simply putting the rope back where it was after
+    it had been undone didn't restore its purpose.\r\nBut what they couldn't understand
+    was why the bakeneko and the strange cats were affecting them.\r\nThere was nothing
+    in particular they could think of that they had done.\r\nWhen they got that far,
+    James simply said, \u201CI'm tired\u201D and crawled into bed.\r\n\r\nThey began
+    forming a hypothesis.\r\n\r\nEverything had been normal until Maddie hurt her
+    knee.\r\nOr had the strange events already started when James saw the cat in
+    the grass?\r\nEither way, on their way back to the main path, James had cut the
+    shimenawa and somehow released something.\r\nIf that was the case, it would explain
+    why they hadn't seen a single person and why they encountered that strange white
+    fox. Perhaps they had somehow entered a place that didn't belong to this world.\r\nBut
+    the voice that only Maddie could hear, and the cats that only James could see,
+    still didn't make sense.\r\n\r\n(We haven't done anything wrong to anger the
+    gods\u2026 right?)\r\n\r\nLiam placed his phone on his chest and lay on his back.\r\nA
+    black cat was looking down at him.\r\n\r\n[souiu kangae dakara fuunwo yobunodayo,
+    wakamonoyo]\r\n\r\n\r\n\r\n\u2026..To be continued at the cinema!\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
   m_sharedMaterial: {fileID: -9153887945999032874, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
