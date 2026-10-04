@@ -1584,6 +1584,8 @@ RectTransform:
   m_Children:
   - {fileID: 1887391712}
   - {fileID: 1997684544}
+  - {fileID: 1109382991}
+  - {fileID: 2030259085}
   m_Father: {fileID: 1669412918}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
@@ -2835,6 +2837,103 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1109382987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1109382991}
+  - component: {fileID: 1109382990}
+  - component: {fileID: 1109382989}
+  - component: {fileID: 1109382988}
+  m_Layer: 5
+  m_Name: e1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1109382988
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109382987}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ecdcfc0987dab4f47940588cd62132f6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1109382989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109382987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 282303be6f61f3b439d6950741549c78, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1109382990
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109382987}
+  m_CullTransparentMesh: 1
+--- !u!224 &1109382991
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109382987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 477720496}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 716}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1295128745
 GameObject:
   m_ObjectHideFlags: 0
@@ -4029,36 +4128,36 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\nChapter 3 \u2014 \"The Fox\"\r\n\n\r\n\"Go. I\u2019ll give you five
-    minutes. Just five minutes of chasing it, then we go back\"\n\r\nJames knew that
-    Maddie would probably be in a bad mood for the rest of the day if she didn\u2019t
-    get her way, so he reluctantly agreed. Forgetting the pain in her knee, Maddie
-    happily headed in the direction of the fox.\r\n\n\nOnce again, they left the
-    stone-paved steps and followed an unmaintained dirt path. The smell of earth
-    and grass suddenly became stronger. The light from Maddie\u2019s phone was not
-    enough, so James and Liam also turned on their phone lights to watch their footing.
-    \n\nThey had thought that even if they followed the fox, they would probably
-    lose sight of it soon and Maddie would eventually give up, but the fox slowly
-    walked deeper into the darkening forest, almost as if it were deliberately making
-    the three of them follow.\r\n\n\"We\u2019re getting farther and farther away
-    from the torii. We should go back soon\"\r\nAfter walking for a while, Liam said
-    hesitantly. He was right. Everything ahead and behind them was pitch black, and
-    the torii were no longer visible.\r\n\r\n\"Yeah, let\u2019s go back\"\r\n\r\nThe
-    moment Maddie said this, the fox stopped and turned around. Its eyes emitted
-    a red glow, and its entire body radiated something so strange that it made the
-    fur on their bodies stand on end. At that moment, James felt the violent pressure
-    of something invisible taking over his body, accompanied by a pain so intense
-    that it felt as though all four of his limbs were being torn apart. In his ears,
-    he heard hundreds, perhaps thousands, of voices that sounded like cats. James
-    let out a scream and collapsed to the ground.\r\n\r\n\"James, James!!\"\r\n\r\nMaddie
+  m_text: "\n\nChapter 3  \"The Fox\"\r\n\n\r\n\"Go. I\u2019ll give you five minutes.
+    Just five minutes of chasing it, then we go back\"\n\r\nJames knew that Maddie
+    would probably be in a bad mood for the rest of the day if she didn\u2019t get
+    her way, so he reluctantly agreed. Forgetting the pain in her knee, Maddie happily
+    headed in the direction of the fox.\r\n\n\nOnce again, they left the stone-paved
+    steps and followed an unmaintained dirt path. The smell of earth and grass suddenly
+    became stronger. The light from Maddie\u2019s phone was not enough, so James
+    and Liam also turned on their phone lights to watch their footing. \n\nThey had
+    thought that even if they followed the fox, they would probably lose sight of
+    it soon and Maddie would eventually give up, but the fox slowly walked deeper
+    into the darkening forest, almost as if it were deliberately making the three
+    of them follow.\r\n\n\"We\u2019re getting farther and farther away from the torii.
+    We should go back soon\"\r\nAfter walking for a while, Liam said hesitantly.
+    He was right. Everything ahead and behind them was pitch black, and the torii
+    were no longer visible.\r\n\r\n\"Yeah, let\u2019s go back\"\r\n\r\nThe moment
+    Maddie said this, the fox stopped and turned around. Its eyes emitted a red glow,
+    and its entire body radiated something so strange that it made the fur on their
+    bodies stand on end. At that moment, James felt the violent pressure of something
+    invisible taking over his body, accompanied by a pain so intense that it felt
+    as though all four of his limbs were being torn apart. In his ears, he heard
+    hundreds, perhaps thousands, of voices that sounded like cats. James let out
+    a scream and collapsed to the ground.\r\n\r\n\"James, James!!\"\r\n\r\nMaddie
     and Liam crouched down and shook James, but there was no response.\r\n\r\n\"It\u2019s\u2026
     coming this way\"\r\n\r\nLiam\u2019s legs gave way, and he collapsed onto the
     ground. The fox lowered its head and approached them without taking its eyes
     off them. Its red eyes opened wide, its face taking on a terrifying expression
-    that was nothing like an ordinary fox.\r\n\r\n\"M-monster!\"\r\n\r\nMaddie took
-    several steps backward, but tripped over a stone sticking out of the ground and
-    fell.\r\n\r\n\"Maddie!\"\r\n\r\nLiam grabbed James by the arm and dragged him
-    toward Maddie. But the fox growled, grabbed James by the leg, and began pulling
+    that was nothing like an ordinary fox.\r\n\n\n\n\n\n\n\n\n\r\n\"M-monster!\"\r\n\r\nMaddie
+    took several steps backward, but tripped over a stone sticking out of the ground
+    and fell.\r\n\r\n\"Maddie!\"\r\n\r\nLiam grabbed James by the arm and dragged
+    him toward Maddie. But the fox growled, grabbed James by the leg, and began pulling
     him in the opposite direction. It was incredibly strong. Liam pulled with all
     his strength, refusing to let go of James\u2019s arm. James\u2019s body stretched,
     and the sound of a joint popping out echoed through the darkness. The fox dug
@@ -5548,6 +5647,153 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 551534556010511573}
+--- !u!1 &2030259084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2030259085}
+  - component: {fileID: 2030259089}
+  - component: {fileID: 2030259088}
+  - component: {fileID: 2030259087}
+  - component: {fileID: 2030259086}
+  m_Layer: 5
+  m_Name: 2DInteractive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2030259085
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030259084}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 477720496}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 711}
+  m_SizeDelta: {x: 283, y: 200.36}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2030259086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030259084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91fa8b21059a9c7409cab245115ee4ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1109382988}
+  triggerName: EyeBall
+--- !u!114 &2030259087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030259084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2030259088}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2030259086}
+        m_TargetAssemblyTypeName: PlayAnimationOnTap, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2030259088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030259084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e68fb3cdb784dce428e6096baae1a19d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2030259089
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030259084}
+  m_CullTransparentMesh: 1
 --- !u!1 &2063684045
 GameObject:
   m_ObjectHideFlags: 0
