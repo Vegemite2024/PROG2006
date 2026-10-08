@@ -294,7 +294,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -185, y: -8406}
+  m_AnchoredPosition: {x: -185, y: -8704}
   m_SizeDelta: {x: 400, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &139202201
@@ -1640,10 +1640,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Choose to go under the torii gate
+  m_text: Go under the torii gates
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
+  m_sharedMaterial: {fileID: -9153887945999032874, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3129,7 +3129,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: -2154}
+  m_AnchoredPosition: {x: -3, y: -3494}
   m_SizeDelta: {x: 283, y: 200.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1390087054
@@ -3810,8 +3810,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Follow the fox '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
+  m_sharedMaterial: {fileID: -9153887945999032874, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4090,29 +4090,29 @@ MonoBehaviour:
     annoying.\r\n\r\n\u201CIt suddenly got cooler, didn\u2019t it? The air feels
     kind of different too\u201D\r\n\r\nLiam said as he looked around.\r\n\r\n\u201CThere
     are more trees around here. Maybe it\u2019s the shade or something. I\u2019m
-    already sweating, so this kind of cool is actually perfect for me\u201D\r\n\r\n\r\nAfter
-    passing through the stone torii, the high steps quickly started putting a lot
-    of strain on their legs. They had been talking at first, but as they continued
-    climbing towards the red torii that still seemed far away, they gradually fell
-    silent. Whenever they opened their mouths, their throats felt dry from being
-    out of breath.\r\n\u201CIs there anywhere you guys want to go tonight? How about
-    karaoke?\u201D\r\n\r\nLiam said while holding onto the handrail. He was probably
-    trying to keep everyone\u2019s spirits up.\r\n\r\n\u201CKaraoke sounds good.
-    I heard there\u2019s a karaoke place near the station with an all-you-can-eat
-    sweets option. Why don\u2019t we go there?\u201D\r\n\r\nMaddie said.\r\n\r\n\u201CThen
-    let\u2019s go to the arcade afterwards! Apparently you can get figures from the
-    anime I\u2019m watching from those UFO catcher machines\u201D\r\n\r\nSeeing that
-    the other two were getting more motivated, Liam nodded with a smile.\r\nThe three
-    began climbing the stairs silently again when, all of a sudden, Maddie, who was
-    walking at the front, stopped and looked up.\r\n\r\n\u201CWhat was that?!\u201D\r\n\r\nHer
-    face was full of surprise and uneasiness.\r\n\u201CWhat was what?\u201D\r\n\r\nJames
-    asked, confused.\r\n\r\n\u201CThat big sound just now! It was kind of... like
-    a ship\u2019s horn, or an organ or something. You heard it, right?\u201D\r\n\r\n\u201CNo,
-    I didn\u2019t hear anything\u201D\r\n\r\n\r\nLiam looked around suspiciously,
-    but all they could hear was the sound of leaves rustling in the wind.\r\nMaddie
-    looked dissatisfied with his answer. She seemed about to say something, but closed
-    her mouth and returned to the stairs.\r\nBut it happened again less than ten
-    minutes later.\r\n\r\n\u201CThere!!! You heard that one, didn\u2019t you?!\u201D\r\n\r\nMaddie
+    already sweating, so it's kinda nice\"\n\r\n\r\nAfter passing through the stone
+    torii, the high steps quickly started putting a lot of strain on their legs.
+    They had been talking at first, but as they continued climbing towards the red
+    torii that still seemed far away, they gradually fell silent. Whenever they opened
+    their mouths, their throats felt dry from being out of breath.\r\n\n\u201CIs
+    there anywhere you guys want to go tonight? How about karaoke?\u201D\r\n\r\nLiam
+    said while holding onto the handrail. He was probably trying to keep everyone\u2019s
+    spirits up.\r\n\r\n\u201CKaraoke sounds good. I heard there\u2019s a karaoke
+    place near the station with an all-you-can-eat sweets option. Why don\u2019t
+    we go there?\u201D\r\n\r\nMaddie said.\r\n\r\n\u201CThen let\u2019s go to the
+    arcade afterwards! Apparently you can get figures from the anime I\u2019m watching
+    from those UFO catcher machines\u201D\r\n\r\nSeeing that the other two were getting
+    more motivated, Liam nodded with a smile.\r\nThe three began climbing the stairs
+    silently again when, all of a sudden, Maddie, who was walking at the front, stopped
+    and looked up.\r\n\r\n\u201CWhat was that?!\u201D\r\n\r\nHer face was full of
+    surprise and uneasiness.\r\n\n\u201CWhat was what?\u201D\r\n\r\nJames asked,
+    confused.\r\n\r\n\u201CThat big sound just now! It was kind of... like a ship\u2019s
+    horn, or an organ or something. You heard it, right?\u201D\r\n\r\n\u201CNo, I
+    didn\u2019t hear anything\u201D\r\n\r\n\r\nLiam looked around suspiciously, but
+    all they could hear was the sound of leaves rustling in the wind.\r\nMaddie looked
+    dissatisfied with his answer. She seemed about to say something, but closed her
+    mouth and returned to the stairs.\r\nBut it happened again less than ten minutes
+    later.\r\n\r\n\u201CThere!!! You heard that one, didn\u2019t you?!\u201D\r\n\r\nMaddie
     was already angry as she turned around and shouted at the other two.\r\nBut at
     the same time, James let out an even louder scream.\r\n\r\n\u201CWAAAAH!\u201D\r\n\u201CWhat?!\u201D\r\n\r\nMaddie
     yelled back at James, annoyed that he had interrupted her.\r\n\r\n\u201CA cat!
@@ -4126,37 +4126,37 @@ MonoBehaviour:
     seen any of them.\r\n\r\n\u201CYou keep making those ridiculously loud noises,
     so they run away immediately. You should be happy about that\u201D\r\n\r\nLiam
     sighed. At this rate, he thought they were going to end the night by having a
-    fight and going their separate ways for dinner.\r\nAfter climbing for another
+    fight and going their separate ways for dinner.\r\n\nAfter climbing for another
     ten or so minutes, they finally saw the red torii.\r\nHundreds of torii formed
     a path, protecting the stairs that continued further up the mountain. It was
     exactly as beautiful as the photos they had seen on social media and in travel
-    guides, and the three of them couldn't help but look up at them with smiles.\r\nFortunately,
+    guides, and the three of them couldn't help but look up at them with smiles.\r\n\nFortunately,
     there wasn't a single person around. While Maddie happily took photos, the other
     two sat on nearby rocks and waited.\r\nThe sky was turning orange, and the silhouettes
     of the mountains and buildings along the horizon were becoming completely black.\r\n\r\n\u201CCome
-    on, let\u2019s go.\u201D\r\n\r\nJames called out to Maddie, who was posing beside
+    on, let\u2019s go\u201D\r\n\r\nJames called out to Maddie, who was posing beside
     the torii. He was starting to get impatient.\r\n\r\n\u201CHey, James, what do
     you think that is? A little further up the stairs. Don\u2019t you see something
     white?\u201D\r\n\r\nLiam, who was also looking towards Maddie, pointed at a particular
     spot.\r\nJames narrowed his eyes and looked.\r\nSure enough, there was a white
     object further up from where Maddie was standing. Because the sky was getting
     darker and its outline was blurred, it was difficult to see clearly.\r\n\r\n\u201CThat\u2019s
-    a fox! A white fox!\u201D\r\n\n\n\n\n\r\nLiam said, sounding as though he had
-    figured it out.\r\n\r\n\u201CWith all this nature around, I guess that makes
-    sense. But seeing a white one is pretty unusual\u201D\r\n\r\nIt was definitely
-    a fox.\r\nIt sat quietly on the stairs, staring at James and Liam without blinking.\r\nThe
+    a fox! A white fox!\u201D\r\n\n\r\nLiam said, sounding as though he had figured
+    it out.\r\n\r\n\u201CWith all this nature around, I guess that makes sense. But
+    seeing a white one is pretty unusual\u201D\r\n\r\nIt was definitely a fox.\r\nIt
+    sat quietly on the stairs, staring at James and Liam without blinking.\r\nThe
     fox was bathed in the orange light, and for a moment, it looked as red as the
     sky around it.\r\n\r\n\u201CSorry to keep you waiting! Shall we go?\u201D\r\n\r\nMaddie
     finished taking her photos and returned to the other two, but James was still
-    looking towards the fox.\r\n\r\n\u201CWhat are you looking at?\u201D\r\n\u201CNothing,
+    looking towards the fox.\r\n\r\n\u201CWhat are you looking at?\u201D\r\n\n\u201CNothing,
     there\u2019s just a fox... Oh, it\u2019s going towards the woods\u201D\r\n\r\nThe
     fox suddenly stood up and, without taking its eyes off them, began walking towards
     the woods away from the torii.\r\nAs it moved between the dark trees, its white
-    body looked almost like a pale ghost.\r\n\r\n\u201CJapan has foxes too, huh?
-    Why don\u2019t we follow it for a bit and see where it goes? Maybe it\u2019ll
-    take us to a fox party\u201D\r\n\r\nMaddie was completely distracted by the fox
-    and no longer seemed interested in going to the top.\r\n\r\n\u201CWe came all
-    this way. Let\u2019s go through the torii and make it to the top\u201D\r\n\r\nLiam
+    body looked almost like a pale ghost.\r\n\n\n\n\n\n\r\n\u201CJapan has foxes
+    too, huh? Why don\u2019t we follow it for a bit and see where it goes? Maybe
+    it\u2019ll take us to a fox party\u201D\r\n\r\nMaddie was completely distracted
+    by the fox and no longer seemed interested in going to the top.\r\n\r\n\u201CWe
+    came all this way. Let\u2019s go through the torii and make it to the top\u201D\r\n\r\nLiam
     encouraged her.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
@@ -4269,7 +4269,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -2155}
+  m_AnchoredPosition: {x: 0, y: -3495}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1917345595
@@ -4361,7 +4361,7 @@ RectTransform:
   m_GameObject: {fileID: 1929508345}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0375, y: 1.5404288, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1712249195}
@@ -4369,7 +4369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 210, y: -8407}
+  m_AnchoredPosition: {x: 210, y: -8705}
   m_SizeDelta: {x: 300, y: 39.464966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929508347

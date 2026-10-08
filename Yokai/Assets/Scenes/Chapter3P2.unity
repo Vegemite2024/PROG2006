@@ -4167,7 +4167,7 @@ MonoBehaviour:
     sound of its teeth snapping together echoed through the forest, Liam repeatedly
     kicked the fox away.\r\n\r\n\"Maddie, anything will do, a stick or a rock, just
     throw it!\"\r\n\r\nLiam shouted desperately. Maddie picked up a nearby branch
-    and charged toward the fox, swinging it wildly while screaming \"Uwaaaah\". By
+    and charged toward the fox, swinging it wildly while screaming \"Uwaaaah\". \n\nBy
     chance, the end of the branch struck the fox directly in the eye. The fox let
     out a shriek and opened its mouth wide. Several rows of sharp teeth, almost like
     a shark\u2019s, were exposed. Then Maddie heard a voice coming from somewhere.\r\n\r\n[Koitsura
@@ -4181,7 +4181,7 @@ MonoBehaviour:
     lying at an intersection near the shrine station. Liam and James also slowly
     got up, holding their heads.\r\n\r\n\"James, are you okay?\"\r\n\r\nMaddie looked
     at James with concern, but there wasn't a single injury on him. Even though he
-    had been bitten and scratched so badly\u2026\r\n\r\n\"Yeah, did something happen?\"\r\n\r\nHearing
+    had been bitten and scratched so badly\u2026\r\n\r\n\"CATS!!\"\r\n\r\nHearing
     this, Maddie and Liam looked at each other.\r\n\r\nThen Maddie looked down at
     her hand.\r\n\r\nA small fox-mask netsuke was resting in her palm.\r\n\n"
   m_isRightToLeft: 0
@@ -5676,7 +5676,7 @@ RectTransform:
   m_GameObject: {fileID: 2030259084}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.89997, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 477720496}

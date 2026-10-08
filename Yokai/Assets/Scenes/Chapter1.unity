@@ -4077,7 +4077,7 @@ MonoBehaviour:
   m_text: "\n\n\nChapter 1\n\n\u201CNo, I can\u2019t walk anymore\u201D\r\n\nJames
     turned around when he heard Maddie\u2019s painful groan.\r\nHe realised that
     she had fallen quite far behind. She was leaning against the handrail, resting
-    her weight against it. Her raincoat was bright yellow, almost like an American
+    her weight against it. \n\nHer raincoat was bright yellow, almost like an American
     school bus, with pictures of ducks wearing sunglasses and holding swim rings
     scattered all over it. The designs were a little childish for a woman in her
     twenties. That said, James also had a raincoat packed in his backpack, just in
@@ -4085,7 +4085,7 @@ MonoBehaviour:
     since they were visiting Japan, they had decided it was better to be flexible
     enough to adapt to any kind of weather.\r\nOther tourists passed Maddie, who
     was breathing heavily with tiredness, laughing as they went.\r\n\n\u201CCome
-    on, you can do it. We\u2019ve only just started going up the stairs.\u201D\r\n\nLiam,
+    on, you can do it. We\u2019ve only just started going up the stairs\u201D\r\n\nLiam,
     who was further ahead than James, teased Maddie.\r\nThe three of them had come
     to Japan from the Gold Coast in Australia, and it had been three days since they
     arrived. On their first day, they had bought several bottles of the strong alcohol
@@ -4097,17 +4097,17 @@ MonoBehaviour:
     with tourists. Fortunately, there was a special festival taking place in the
     town today, so there were fewer people around than usual.\r\nBecause of that,
     the buses coming here had been too crowded to get on, and they had already walked
-    several dozen kilometres just today.\r\n\nWhile Maddie caught her breath, the
-    sound of festival music drifted through the wind from somewhere nearby. A cold
-    gust of wind blew past, unusual for September. The sun looked like it would set
-    in only a few more hours.\r\n\n\u201CCome on. Let\u2019s make it to the top before
+    several kilometres just today.\r\n\nWhile Maddie caught her breath, the sound
+    of festival music drifted through the wind from somewhere nearby. A cold gust
+    of wind blew past, unusual for September. The sun looked like it would set in
+    only a few more hours.\r\n\n\u201CCome on. Let\u2019s make it to the top before
     it gets dark\u201D\r\n\nJames looked up. Liam was reading a sign a little further
     up the path.\r\nLiam had spent six years in Japan as an international student
     before returning to Australia to attend university. But it seemed like he had
     left his heart behind in Japan, because whenever he had the chance, he would
     quickly come back.\r\n\nMaddie and James could read hiragana to some extent,
     but having Liam, who knew Japanese well, with them was reassuring.\r\n\n\u201CYou
-    two are trying to kill me. Japan has way too many stairs.\u201D\r\n\nMaddie complained
+    two are trying to kill me. Japan has way too many stairs\"\n\nMaddie complained
     as she took another step.\r\nThe three of them had met in high school and had
     been friends ever since. Even now, at twenty-one, they were close enough to meet
     on weekends, play online games together, or just hang around doing nothing.\r\n\n\u201CLiam,
@@ -4117,13 +4117,13 @@ MonoBehaviour:
     moving here before the end of the year. I\u2019d already been looking at places
     and stuff\u201D\r\n\n\u201CSeriously? Well, I get it. The food\u2019s good, and
     the scenery\u2019s beautiful\u201D\r\n\n\u201CIf you leave, who\u2019s going
-    to maintain my computer?!\u201D\r\n\nMaddie shouted from the bottom of the stairs.
-    She had some seriously good hearing to have heard that conversation from there.\n\r\n\u201CActually...
-    there\u2019s this Japanese girl I met through a game\u201D\r\n\nLiam quietly
-    said to James, keeping his voice low enough that Maddie couldn\u2019t hear.\r\n\n\u201CNo
-    way. How could you not tell me this?\u201D\r\n\nJames moved right next to Liam
-    with an amused expression on his face.\r\n\n\u201C...Y-yeah. We\u2019re the same
-    age, and she lives in Kyoto. We talk pretty much every day\u201D\r\n\n\u201CWoooo!\u201D\r\n\nJames
+    to clean my gaming computer?!\u201D\r\n\nMaddie shouted from the bottom of the
+    stairs. She had some seriously good hearing to have heard that conversation from
+    there.\n\r\n\u201CActually... there\u2019s this Japanese girl I met through a
+    game\u201D\r\n\nLiam quietly said to James, keeping his voice low enough that
+    Maddie couldn\u2019t hear.\r\n\n\u201CNo way. How could you not tell me this?\u201D\r\n\nJames
+    moved right next to Liam with an amused expression on his face.\r\n\n\u201C...Y-yeah.
+    We\u2019re the same age, and she lives in Kyoto. We talk pretty much every day\u201D\r\n\n\u201CWoooo!\u201D\r\n\nJames
     elbowed Liam.\r\n\nIt was just as they stood side by side, waiting for Maddie
     to catch up so James could ask more questions.\r\n\n\u201COw!\u201D\r\n\nMaddie
     missed the last step and scraped her knee badly. Blood slowly began to seep from
@@ -4152,7 +4152,7 @@ MonoBehaviour:
     from there.\r\n\n\u201CWe can go this way\u201D\r\n\nJames said, scattering some
     dirt and small stones behind him as he climbed.\r\nTo get over the final large
     stone step, he used a rope tied around the tree on his right as a handrail.\r\nBut
-    when he shifted his weight, the rope suddenly snapped with a loud snap.\n\n\u201COops.\u201D\r\n\nJames
+    when he shifted his weight, the rope suddenly snapped with a loud snap.\n\n\u201COopsie\u201D\r\n\nJames
     looked at the piece of rope left in his hand and gave an awkward smile. Then,
     as if nothing had happened, he placed it over a branch of the tree.\r\nMaddie
     shook her head in disbelief when she saw him do it, and the three of them returned

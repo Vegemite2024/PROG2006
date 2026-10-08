@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32, y: 553}
+  m_AnchoredPosition: {x: 32, y: 879}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &44166312
@@ -1472,7 +1472,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -50, y: 0}
-  m_SizeDelta: {x: 850, y: 6000}
+  m_SizeDelta: {x: 850, y: 6500}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &519420028
 GameObject:
@@ -2980,7 +2980,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32, y: 553}
+  m_AnchoredPosition: {x: 32, y: 879}
   m_SizeDelta: {x: 283, y: 200.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1390087054
@@ -4015,7 +4015,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -150}
-  m_SizeDelta: {x: 850, y: 6000}
+  m_SizeDelta: {x: 850, y: 6500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1887391713
 MonoBehaviour:
@@ -4055,14 +4055,14 @@ MonoBehaviour:
     down on the sofa. James was lying on the bed, staring blankly at the television
     when he suddenly said,\r\n\r\n\u201CThere were two\u201D\r\n\r\n\u201CTwo what?\u201D\r\n\r\n\u201CThe
     black cat I saw at the very beginning. It had two tails\u201D\r\n\n\r\n\u201CHuh?\u201D\r\n\n\n\n\n\n\n\n\n\n\n\r\nCats
-    with two tails aren't an unusual image in Japan. They are called bakeneko, a
+    with two tails aren't an unusual image in Japan. They are called nekomata, a
     type of yokai, and often appear in anime as well.\r\n\r\n\u201CYou must have
     imagined it\u201D\r\n\r\nLiam brushed it off, but James immediately denied it.\r\n\r\n\u201CNo,
     it definitely had two. They were moving in different directions. There's no way
-    I'd mistake something that creepy\u201D\r\nLiam opened his phone and hesitated
+    I'd mistake something that creepy\u201D\r\n\nLiam opened his phone and hesitated
     over whether to tell the girl about what had happened today. He started typing
     \u201CGood evening,\u201D and opened his messages, but instead, he went to the
-    search bar and typed, \u201Cmeaning of torii\u201D\r\n\r\n(So the stone torii
+    search bar and typed, \n\n\u201Cmeaning of torii\u201D\r\n\r\n(So the stone torii
     has a meaning of connecting the ordinary world with another world\u2026 And the
     vermilion torii represents wishes and gratitude towards the gods\u2026 And torii
     also have the meaning of being a passageway for the gods)\r\n\r\nBut he didn't
@@ -4078,18 +4078,18 @@ MonoBehaviour:
     it had been undone didn't restore its purpose.\r\nBut what they couldn't understand
     was why the bakeneko and the strange cats were affecting them.\r\nThere was nothing
     in particular they could think of that they had done.\r\nWhen they got that far,
-    James simply said, \u201CI'm tired\u201D and crawled into bed.\r\n\r\nThey began
+    James simply said, \u201CI'm tired\u201D and crawled into bed.\r\n\r\nLiam began
     forming a hypothesis.\r\n\r\nEverything had been normal until Maddie hurt her
     knee.\r\nOr had the strange events already started when James saw the cat in
-    the grass?\r\nEither way, on their way back to the main path, James had cut the
-    shimenawa and somehow released something.\r\nIf that was the case, it would explain
-    why they hadn't seen a single person and why they encountered that strange white
-    fox. Perhaps they had somehow entered a place that didn't belong to this world.\r\nBut
-    the voice that only Maddie could hear, and the cats that only James could see,
-    still didn't make sense.\r\n\r\n(We haven't done anything wrong to anger the
-    gods\u2026 right?)\r\n\r\nLiam placed his phone on his chest and lay on his back.\r\nA
-    black cat was looking down at him.\r\n\r\n[souiu kangae dakara fuunwo yobunodayo,
-    wakamonoyo]\r\n\r\n\r\n\r\n\u2026..To be continued at the cinema!\r\n"
+    the bush?\r\nEither way, on their way back to the main path, James had cut the
+    holy rope and somehow released something.\r\n\nIf that was the case, it would
+    explain why they hadn't seen a single person and why they encountered that strange
+    white fox. Perhaps they had somehow entered a place that didn't belong to this
+    world.\r\nBut the voice that only Maddie could hear, and the cats that only James
+    could see, still didn't make sense.\r\n\r\n(We haven't done anything wrong to
+    anger the gods\u2026 right?)\r\n\r\nLiam placed his phone on his chest and lay
+    on his back.\r\nA black cat with two tails was looking down at him.\r\n\r\n[souiu
+    kangae dakara fuunwo yobunodayo, wakamonoyo]\r\n\r\n\r\n\r\n\u2026..To be continued\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
   m_sharedMaterial: {fileID: -9153887945999032874, guid: 84eca623474ae7e4588f602ba2c56199, type: 2}
