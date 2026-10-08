@@ -24,7 +24,7 @@ public class MiniGamePlayer : MonoBehaviour
         {
             player.anchoredPosition += Vector2.up * jumpSpeed * Time.deltaTime;
 
-            if (player.anchoredPosition.y > groundY + 200f)
+            if (player.anchoredPosition.y > groundY + 300f)
                 jumping = false;
         }
         else if (player.anchoredPosition.y > groundY)

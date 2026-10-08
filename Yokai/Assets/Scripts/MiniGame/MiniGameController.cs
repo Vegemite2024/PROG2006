@@ -28,7 +28,7 @@ public class MiniGameController : MonoBehaviour
 
     public void StartMiniGame()
     {
-        gameStarted = true;
+     
 
         playButton.SetActive(false);
 
@@ -70,7 +70,7 @@ public class MiniGameController : MonoBehaviour
         people.ResetPeople();
 
         playButton.SetActive(true);
-        gameStarted = false;
+      
 
         PauseMiniGame();
     }
